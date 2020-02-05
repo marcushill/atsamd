@@ -90,6 +90,19 @@ define_pins!(
     pin usb_dm = a24,
     /// The USB D+ pad
     pin usb_dp = a25,
+
+    /// The SCK pin attached to the on-board SPI flash
+    pin flash_sck = b10,
+    
+    pin flash_cs = b11,
+    /// The IO0 pin attached to the on-board SPI flash
+    pin flash_io0 = a8,
+    /// The IO1 pin attached to the on-board SPI flash
+    pin flash_io1 = a9,
+    /// The IO2 pin attached to the on-board SPI flash
+    pin flash_io2 = a10,
+    /// The IO3 pin attached to the on-board SPI flash
+    pin flash_io3 = a11,
 );
 
 /// Convenience for setting up the labelled SPI peripheral.

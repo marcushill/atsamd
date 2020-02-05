@@ -19,6 +19,8 @@ pub mod adc;
 #[cfg(feature = "usb")]
 pub mod usb;
 
+pub mod qspi;
+
 #[cfg(feature = "use_uart_debug")]
 pub mod uart_debug;
 
